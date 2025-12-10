@@ -20,8 +20,8 @@ This repository contains:
   - Image acquisition and processing
 
 - **Functions for hardware control**
-  - Initialization: function_initializeAllHardware
-  - Control DMD projection:
+  - **Initialization: function_initializeAllHardware**
+  - **Control DMD projection:**
   -   function_PatternGenerator2D
   -   function_feed_DMD
   -   function_ProjInquire_DMD
@@ -31,18 +31,18 @@ This repository contains:
   -   function_StopProj_DMD
   -   function_SeqFree_DMD
   -   function_Stop_DMD
-  - Generate trigger signals for synchronization using a NI DAQ
+  - **Generate trigger signals for synchronization using a NI DAQ**
   -   function_makeCycleClock
   -   function_makeCycleClockGMscan
   -   function_makeCycleClockMultiROI
-  - Generate correction masks
+  - **Generate correction masks**
   -   function_FindTargets
   -   function_FISTA
   -   function_GenerateSubregionMask
-  - Image acquisition via point scanning
+  - **Image acquisition via point scanning**
   -   function_StoreAndProjectionAndScan
   -   function_StoreAndProjectionPMTon
-  - Image processing
+  - **Image processing**
   -   function_imgprocess_MultiFISTA
   -   function_imgprocess_notchfilter
   -   function_imgprocess_removeGrid_step1
