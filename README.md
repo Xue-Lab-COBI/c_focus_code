@@ -48,12 +48,3 @@ This repository contains:
   -   function_imgprocess_removeGrid_step1
   -   function_imgprocess_removeGrid_step2
 
-```Core C-FOCUS algorithms
-.
-├── Initialization of the hardware in the imaging system connected to the computer
-├── Data acquisition experiments
-│   ├── Image without correction and image processing
-│   ├── Single-region correction and image processing
-│   └── Multi-region correction and image processing
-├── Turn off hardware
-└── README.md
